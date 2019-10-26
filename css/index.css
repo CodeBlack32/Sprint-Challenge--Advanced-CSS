@@ -172,6 +172,9 @@ nav {
   justify-content: space-evenly;
   font-size: 15px;
 }
+@mobile {
+  margin: 0 0;
+}
 nav a {
   color: gray;
   text-decoration: none;
