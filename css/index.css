@@ -1,16 +1,3 @@
-.btn-color {
-  color: white;
-  background: #03032a;
-}
-.btn-style {
-  font-size: 20px;
-  font-weight: bold;
-  height: 35px;
-  width: 98px;
-  border: 1px solid;
-  border-radius: 5px;
-  text-align: center;
-}
 .btn-hover {
   color: yellow;
   background: black;

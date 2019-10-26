@@ -1,16 +1,16 @@
 // Mixins Here
-.btn-color {
-    color: white;
-    background: rgb(3, 3, 42);
+.btn-color(@color, @background) {
+    color: @color;
+    background: @background;
 }
 
-.btn-style {
+.btn-style (@border-r) {
     font-size: 20px;
     font-weight: bold;
     height: 35px;
     width: 98px;
     border: 1px solid;
-    border-radius: 5px;
+    border-radius: @border-r;
     text-align: center;
 }
 
