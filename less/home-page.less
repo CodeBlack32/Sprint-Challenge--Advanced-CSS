@@ -15,6 +15,17 @@
   }
 
   .space-images {
+
+    @media @mobile {
+      display: flex;
+      flex-direction: column;
+
+      img .sky {
+        display: none;
+      }
+     
+    }
+
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -40,13 +51,25 @@
   }
 
   .walk {
+
+    @media @mobile {
+      padding: 50px 24px;
+      justify-content: left;
+    }
+
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
     display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
 
     .walk-text {
+
+@media @mobile {
+  width: 100%;
+}
+
       width: 50%;
 
       h3 {
@@ -58,6 +81,7 @@
       }
 
       .btn {
+
         .btn-color(white, rgb(3, 3, 42));
         .btn-style(5px);
       }
@@ -67,6 +91,12 @@
     }
 
     .walk-img {
+
+      @media @mobile {
+        width: 100%;
+        margin-left: 0px;
+      }
+
       width: 46%;
       margin-left: 4%;
       
